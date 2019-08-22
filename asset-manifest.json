@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blog-cleverland/static/css/main.dfc01444.chunk.css",
+    "main.js": "/blog-cleverland/static/js/main.db8186c4.chunk.js",
+    "main.js.map": "/blog-cleverland/static/js/main.db8186c4.chunk.js.map",
+    "runtime~main.js": "/blog-cleverland/static/js/runtime~main.7ebfc6f8.js",
+    "runtime~main.js.map": "/blog-cleverland/static/js/runtime~main.7ebfc6f8.js.map",
+    "static/js/2.09cda2a4.chunk.js": "/blog-cleverland/static/js/2.09cda2a4.chunk.js",
+    "static/js/2.09cda2a4.chunk.js.map": "/blog-cleverland/static/js/2.09cda2a4.chunk.js.map",
+    "index.html": "/blog-cleverland/index.html",
+    "precache-manifest.6914445fd821d6b2be80fba18127b59b.js": "/blog-cleverland/precache-manifest.6914445fd821d6b2be80fba18127b59b.js",
+    "service-worker.js": "/blog-cleverland/service-worker.js",
+    "static/css/main.dfc01444.chunk.css.map": "/blog-cleverland/static/css/main.dfc01444.chunk.css.map"
+  }
+}
