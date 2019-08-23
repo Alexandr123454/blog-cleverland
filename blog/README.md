@@ -1,6 +1,6 @@
 # React + Redux + Router Blog 
 
-[LINK](https://alexandr123454.github.io/blog-cleverland/)
+[LINK](https://alexandr123454.github.io/blog-s/)
 
 - [x] Two pages were implemented (page of posts and a specific post)
 
