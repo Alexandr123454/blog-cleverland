@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/blog-cleverland/static/css/main.dfc01444.chunk.css",
-    "main.js": "/blog-cleverland/static/js/main.ef2e3554.chunk.js",
-    "main.js.map": "/blog-cleverland/static/js/main.ef2e3554.chunk.js.map",
-    "runtime~main.js": "/blog-cleverland/static/js/runtime~main.7ebfc6f8.js",
-    "runtime~main.js.map": "/blog-cleverland/static/js/runtime~main.7ebfc6f8.js.map",
-    "static/js/2.09cda2a4.chunk.js": "/blog-cleverland/static/js/2.09cda2a4.chunk.js",
-    "static/js/2.09cda2a4.chunk.js.map": "/blog-cleverland/static/js/2.09cda2a4.chunk.js.map",
-    "index.html": "/blog-cleverland/index.html",
-    "precache-manifest.93b787cafcd953e0224cb6601ddce69a.js": "/blog-cleverland/precache-manifest.93b787cafcd953e0224cb6601ddce69a.js",
-    "service-worker.js": "/blog-cleverland/service-worker.js",
-    "static/css/main.dfc01444.chunk.css.map": "/blog-cleverland/static/css/main.dfc01444.chunk.css.map"
+    "main.css": "/blog/static/css/main.dfc01444.chunk.css",
+    "main.js": "/blog/static/js/main.45642c8b.chunk.js",
+    "main.js.map": "/blog/static/js/main.45642c8b.chunk.js.map",
+    "runtime~main.js": "/blog/static/js/runtime~main.cd19d674.js",
+    "runtime~main.js.map": "/blog/static/js/runtime~main.cd19d674.js.map",
+    "static/js/2.09cda2a4.chunk.js": "/blog/static/js/2.09cda2a4.chunk.js",
+    "static/js/2.09cda2a4.chunk.js.map": "/blog/static/js/2.09cda2a4.chunk.js.map",
+    "index.html": "/blog/index.html",
+    "precache-manifest.8db804d3d19fa8948fc7056d0e03caf8.js": "/blog/precache-manifest.8db804d3d19fa8948fc7056d0e03caf8.js",
+    "service-worker.js": "/blog/service-worker.js",
+    "static/css/main.dfc01444.chunk.css.map": "/blog/static/css/main.dfc01444.chunk.css.map"
   }
 }
