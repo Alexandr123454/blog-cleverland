@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import Comments from './Comments';
-import User from './User';
+import Users from './Users';
 
 const getData = state => ({
   comments: state.comments,
 });
 
-class Post extends React.Component {
+class Posts extends React.Component {
   state = {
     showComment: false,
   }
@@ -30,7 +30,7 @@ class Post extends React.Component {
             className="post_list-link"
             to={`/ViewPost/post/${post.id}`}
           >
-            <User userItem={post.user} currentComments={currentComments} />
+            <Users userItem={post.user} currentComments={currentComments} />
 
             <p className="post_title">
               <b>Title</b>
@@ -68,7 +68,7 @@ class Post extends React.Component {
   }
 }
 
-Post.propTypes = {
+Posts.propTypes = {
   comments: PropTypes.shape({
     id: PropTypes.number,
     title: PropTypes.string,
@@ -85,4 +85,4 @@ Post.propTypes = {
 export default connect(
   getData,
   null,
-)(Post);
+)(Posts);

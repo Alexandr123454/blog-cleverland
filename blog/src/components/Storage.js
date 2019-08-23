@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import PostsList from './PostsList';
+import PostNavigation from './PostNavigation';
 
 const initialState = {
   posts: [],
@@ -70,10 +70,10 @@ const store = createStore(
 
 store.subscribe(() => saveToLocalStorage(store.getState()));
 
-const App = () => (
+const Storage = () => (
   <Provider store={store}>
-    <PostsList />
+    <PostNavigation />
   </Provider>
 );
 
-export default App;
+export default Storage;

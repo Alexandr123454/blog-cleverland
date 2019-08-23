@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import React from 'react';
-import User from './User';
+import Users from './Users';
 import Comments from './Comments';
 
 const getData = state => ({
@@ -17,7 +17,7 @@ const getMethods = dispatch => ({
   }),
 });
 
-class SelectPost extends React.Component {
+class SelectedPost extends React.Component {
   state = {
     title: '',
     errorsMap: {
@@ -75,13 +75,17 @@ class SelectPost extends React.Component {
         <Link to="/" exact className="back-btn">
           Back to Posts
         </Link>
+
         <div className="selected-post_list">
-          <User userItem={posts[id - 1].user} />
+
+          <Users userItem={posts[id - 1].user} />
+
           <p className="post_title">
             <b>Title</b>
             {' '}
             {posts[id - 1].title}
           </p>
+
           <p className="post_body">{posts[id - 1].body}</p>
 
           <p
@@ -94,6 +98,7 @@ class SelectPost extends React.Component {
               : 'Comments'
             }
           </p>
+
           {currentComments.map(comment => (
             <Comments key={comment.id} comment={comment} />
           ))}
@@ -113,16 +118,18 @@ class SelectPost extends React.Component {
               onChange={this.handleChange}
             />
           </label>
+
           <div className="form-field_error">
             {errorsMap.title && (<div>{errorsMap.title}</div>)}
           </div>
+          
         </form>
       </div>
     );
   }
 }
 
-SelectPost.propTypes = {
+SelectedPost.propTypes = {
   comments: PropTypes.shape({
     id: PropTypes.number,
     title: PropTypes.string,
@@ -138,4 +145,4 @@ SelectPost.propTypes = {
 export default connect(
   getData,
   getMethods
-)(SelectPost);
+)(SelectedPost);

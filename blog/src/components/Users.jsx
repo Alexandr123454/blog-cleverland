@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const User = ({ userItem }) => (
+const Users = ({ userItem }) => (
   <div className="user_information">
     <p>
       <b>Name</b>
@@ -21,7 +21,7 @@ const User = ({ userItem }) => (
   </div>
 );
 
-User.propTypes = {
+Users.propTypes = {
   userItem: PropTypes.shape({
     name: PropTypes.string,
     username: PropTypes.string,
@@ -29,4 +29,4 @@ User.propTypes = {
   }).isRequired,
 };
 
-export default User;
+export default Users;

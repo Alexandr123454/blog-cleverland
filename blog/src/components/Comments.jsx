@@ -11,9 +11,10 @@ const getMethods = dispatch => ({
 
 const Comments = ({ comment, handleDelete }) => (
   <div className="comments">
+
     <b> Unknown: </b>
-    {console.log(comment)}
     <p className="comment">{comment.title}</p>
+
     <div
       className="delete-comment"
       onClick={() => handleDelete(comment.commentId)}
@@ -21,6 +22,7 @@ const Comments = ({ comment, handleDelete }) => (
       {' '}
       Delete
     </div>
+    
   </div>
 );
 

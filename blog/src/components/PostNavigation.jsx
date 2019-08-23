@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Route, NavLink } from 'react-router-dom';
 import { loadPosts, loadUsers } from '../api/API_DATA';
-import Post from './Post';
-import SelectPost from './SelectPost';
+import Posts from './Posts';
+import SelectedPost from './SelectedPost';
 import '../style/App.css';
 
 const getData = state => ({
@@ -18,7 +18,7 @@ const getMethods = dispatch => ({
   }),
 });
 
-class TodosList extends React.Component {
+class PostNavigation extends React.Component {
   async componentDidMount() {
     const users = await loadUsers();
     const posts = await loadPosts();
@@ -46,7 +46,7 @@ class TodosList extends React.Component {
               <div>
                 {posts.map(post => (
                   <div>
-                    <Post post={post} />
+                    <Posts post={post} />
                   </div>
                 ))}
               </div>
@@ -58,7 +58,7 @@ class TodosList extends React.Component {
             path="/ViewPost/post/:id?"
             render={({ match }) => (posts
               ? (
-                <SelectPost
+                <SelectedPost
                   id={match.params.id}
                 />
               )
@@ -71,7 +71,7 @@ class TodosList extends React.Component {
   }
 }
 
-TodosList.propTypes = {
+PostNavigation.propTypes = {
   posts: PropTypes.shape({
     id: PropTypes.number,
     title: PropTypes.string,
@@ -82,4 +82,4 @@ TodosList.propTypes = {
 export default connect(
   getData,
   getMethods
-)(TodosList);
+)(PostNavigation);
