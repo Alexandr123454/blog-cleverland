@@ -1,5 +1,5 @@
 {
-  "homepage": "http://alexandr123454.github.io/blog-cleverland",
+  "homepage": "http://alexandr123454.github.io/blog",
   "name": "blog",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier-tslint": "^0.4.2"
   }
 }
