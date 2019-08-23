@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/blog-cleverland/precache-manifest.6914445fd821d6b2be80fba18127b59b.js"
+  "/blog-cleverland/precache-manifest.93b787cafcd953e0224cb6601ddce69a.js"
 );
 
 self.addEventListener('message', (event) => {

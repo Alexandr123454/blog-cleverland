@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b72a849b0fb21eb8efcf8da2aa3c36d",
+    "revision": "28f8e3d75b34125e277402d831e5ff34",
     "url": "/blog-cleverland/index.html"
   },
   {
-    "revision": "49f4ce54878301fef7f4",
+    "revision": "8a4c351e60bc72297139",
     "url": "/blog-cleverland/static/css/main.dfc01444.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blog-cleverland/static/js/2.09cda2a4.chunk.js"
   },
   {
-    "revision": "49f4ce54878301fef7f4",
-    "url": "/blog-cleverland/static/js/main.db8186c4.chunk.js"
+    "revision": "8a4c351e60bc72297139",
+    "url": "/blog-cleverland/static/js/main.ef2e3554.chunk.js"
   },
   {
     "revision": "2e6d61f46d430860dc86",
